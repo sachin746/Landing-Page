@@ -1,0 +1,168 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+a{
+    text-decoration: none;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+}
+.seventeen{
+    margin:0 auto;
+    padding: 8px;
+    max-width: 800px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-left{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+.logo-right > a {
+    color:#bfc3c9;
+    font-size: 16px;
+    padding-right:8px ;
+}
+
+.eighteen{
+    display: flex;
+    gap:16px;
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 800px;
+    padding:72px 0px;
+}
+.nineteen > button{
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 8px 48px;
+    background-color: #3883f6;
+    border: 2px solid #3883f6 ;
+    border-radius: 8px;
+}
+.twenty{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.twentyone{
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 8px 0;
+}
+.twentytwo > img{
+    width: 400px;
+    height: 250px;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eleven{
+    max-width: 800px;
+    padding: 72px;
+}
+.twelve{
+    font-size:36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+.thirteen{
+    max-width: 200px;
+    color: grey;
+}
+.fourteen > img {
+    width: 180px;
+    height: 180px;
+    border:3px solid #3883F6;
+    border-radius: 16px;
+    box-sizing: border-box;
+}
+.fifteen{
+    text-align: center;
+}
+.sixteen{
+    display: flex;
+    gap: 16px;
+}
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+.eight{
+    max-width: 800px;
+    padding: 48px 72px;
+}
+.nine{
+    font-style: italic;
+    left: 0;
+    font-size: 36px;
+    color: #1f2937;
+}
+.ten{
+    color: black;
+    float: right;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.four{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.five{
+    background-color: #3883F6;
+    max-width: 800px;
+    margin: 72px auto;
+    display: flex;
+    padding: 48px 72px;
+    flex: 1;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+.six{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.seven{
+    color: #eaeaea;
+}
+.five > button{
+    color: white;
+    font-size: 16px;
+    font-weight: 800;
+    padding: 8px 48px;
+    background-color: #3883f6;
+    border: 2px solid white ;
+    border-radius: 8px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #1f2937;
+    color: white;
+    padding: 24px;
+}
